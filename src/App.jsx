@@ -4,7 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Navbar />
       <Routes>
         <Route path="/" element={<h1>Home Page</h1>} />
@@ -14,7 +14,7 @@ function App() {
         <Route path="/testimonials" element={<h1>Testimonials</h1>} />
         <Route path="/contacts" element={<h1>Contact Us</h1>} />
       </Routes>
-    </>
+    </div>
   );
 }
 export default App;
